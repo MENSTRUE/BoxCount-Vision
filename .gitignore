@@ -1,0 +1,181 @@
+﻿# ============================================================
+# BoxCount Vision — Day 28 / 100
+# Git ignore policy
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+secrets.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+*.lnk
+
+# Node / React / frontend
+node_modules/
+.next/
+.nuxt/
+.vite/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+temp/
+tmp/
+.cache/
+.cache-*/
+__pypackages__/
+
+# Dataset archives and large raw data
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+
+# Raw datasets and common image/video dataset formats
+data/raw/
+data/interim/
+data/processed/
+data/external/
+dataset/
+datasets/
+downloads/
+
+# Large tabular data
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.tfrecord
+*.tfrecords
+
+# Video inputs / generated videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wmv
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+*.h5
+*.keras
+*.joblib
+*.pkl
+*.pickle
+*.safetensors
+*.engine
+*.weights
+
+# ML experiment output
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+events.out.tfevents.*
+last.pt
+best.pt
+train_batch*.jpg
+val_batch*.jpg
+labels_correlogram.jpg
+results.png
+results.csv
+
+# Hugging Face / Transformers caches
+.huggingface/
+transformers_cache/
+huggingface_cache/
+
+# Local database
+*.sqlite
+*.sqlite3
+*.db
+
+# Keep source notebooks, documentation and evidence:
+# notebooks/*.ipynb
+# reports/**/*.json
+# reports/**/*.csv
+# assets/plots/*.png
+# assets/examples/*.png
+# assets/screenshots/*.png
+# assets/diagrams/*.png
+#
+# NOTE: dataset and model files stay local.
+# Track small audit/evaluation CSV and JSON reports.
+# Never force-add large or untrusted artifacts.
