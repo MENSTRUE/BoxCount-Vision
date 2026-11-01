@@ -1,0 +1,3 @@
+# Notebook — executed Kaggle research
+
+`boxcount-vision.ipynb` is the original saved research notebook. Use dataset mount `/kaggle/input/datasets/wafabila/boxcount-vision-dataset` and verify source licensing independently. Experiment A YOLOv8n ran 15 epochs; B was optional and not executed in saved report. Candidate selection based on validation mAP@50:95; full Cardboard and Logistics test sets used after selection. Model export is local `.pt` (ignored in Git), while small audit/evaluation CSV/JSON and plots are versioned. Do not change existing output metadata merely to make claims stronger. See [methodology](../docs/en/methodology.md).

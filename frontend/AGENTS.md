@@ -1,3 +1,3 @@
-# Frontend agent rules
+# Frontend Agent Rules — BoxCount Vision
 
-Use the API for all inference and scientific metrics. Do not invent values. Do not call sampled-frame counts tracking or verified inventory counts. Keep clear disabled/error states and accessible upload controls. Maintain TypeScript typecheck and `npm run build` passing.
+Read `../AGENTS.md`. React/TypeScript/Vite application must reflect *saved backend reports*, not fabricated KPIs. Pages: Overview, Image Detection, Video Analysis, Research & Audit. Label every video value as a **sampled per-frame detection count**. No unique parcel counting claim. Handle disconnected API, empty metrics, model missing, rejected upload, slow inference, and screen-reader/keyboard access. Do not insert imaginary screenshot links or claim deployment validation. Run `npm ci && npm run build` and verify real API integration where available; record any failures. Keep `.env` credentials and uploaded user media out of Git.

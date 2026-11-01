@@ -1,19 +1,19 @@
-# BoxCount Vision — React research frontend
+# BoxCount Vision Frontend — React + Vite
 
-## Run (Windows PowerShell)
+Scientific research console for the [BoxCount Vision API](../backend/README.md). **Do not mistake saved Kaggle held-out metrics for fresh uploaded-image accuracy**. The app provides Overview, Image Detection, Video Analysis and Research & Audit. A video reports **sampled frame counts**, not unique objects or warehouse throughput.
+
+## Run
 
 ```powershell
 cd "D:\porto\100 day\day 28\BoxCount Vision\frontend"
 Copy-Item .env.example .env
-npm install
+npm ci
 npm run build
 npm run dev
 ```
 
-Open http://127.0.0.1:5173 with the companion FastAPI backend on port 8000. The UI reads Kaggle metrics from `GET /api/v1/experiments`; it does not hardcode performance values. Upload image to obtain object detections. Upload short video for **sampled per-frame detection counts** only—there is no ByteTrack, persistent object ID, crossing line, nor production-grade inventory guarantee. UI history is session-scoped on backend restart.
+Visit `http://127.0.0.1:5173`, ensure FastAPI on `127.0.0.1:8000`. Edit frontend `.env` only to match the documented API URL. If the model cannot load, verify the backend logs and `models/champion/boxcount_champion.pt`. The UI should not fabricate values on errors.
 
-### Before / Now / Next
+## Validity and testing
 
-- Before: Kaggle Day 28 YOLO training, primary Cardboard v5 and external Logistics v10 evaluation.
-- Now: genuine inference, preview overlays, count charts, saved experiment metric cards, and audit boundaries.
-- Next: error analysis on near-duplicate frames, manual annotation review, threshold selection on validation only, optional mixed-domain Experiment B, persistent storage and production security.
+`npm run build` is the automated TypeScript/Vite build gate. Run browser smoke tests for image previews and count, short MP4 timeline, invalid file, missing model, disconnected API and mobile layout. API health 'connected' does not guarantee a successful model prediction. See [testing](../docs/en/testing.md), [troubleshooting](../docs/en/troubleshooting.md), and [root README](../README.md).

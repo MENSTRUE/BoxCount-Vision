@@ -1,8 +1,3 @@
-# Backend agent rules
+# Backend Agent Rules — BoxCount Vision
 
-- Use only locally trusted Kaggle-exported `boxcount_champion.pt`.
-- Never claim that video sampling is tracking or throughput counting.
-- The single-class target is YOLO class ID 0 (`box`).
-- Saved reports are read-only source of truth, never fabricate accuracy or latency.
-- Tests should pass without loading weights; integration test against real artifact on operator machine.
-- Keep security restrictions on upload size, extension and artifact previews.
+Read `../AGENTS.md` before changing code. Keep FastAPI `/api/v1/*` contract stable, load only known trusted local `boxcount_champion.pt`, validate upload content and budgets, and never silently train or download weights. Report actual class-0 detections; image count is per image, video count is *per sampled frame*, not tracking or throughput. Metrics must be read from `reports/` and never invented or hardcoded. Inference history is RAM-only. Maintain error handling, CORS and no public deployment claims. Run `python -m pytest -q`, smoke test with trusted model where available, and disclose exactly what was executed. Preserve provenance, no unsafe pickle load from client input. Keep `.env` and uploaded media private.
