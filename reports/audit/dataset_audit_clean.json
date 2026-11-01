@@ -1,0 +1,152 @@
+{
+  "project": "BoxCount Vision - Day 28",
+  "source_zip": "BoxCount_Day28_Kaggle.zip",
+  "output_zip": "BoxCount_Day28_Kaggle_CLEAN.zip",
+  "method": "SHA256 exact image content",
+  "split_priority": [
+    "train",
+    "valid",
+    "test"
+  ],
+  "total_input_images": 108710,
+  "duplicate_hash_groups": 243,
+  "cross_split_hash_groups": 111,
+  "conflicting_annotation_groups": 0,
+  "removed_from_lower_priority_splits": 111,
+  "removal_examples": [
+    {
+      "removed": "logistics_v10/test/images/-1EE5CA55-C89F-4985-8D4E-A56DBD1A1E96-png_jpg.rf.de878f8f461430205486b3499bc13ecc.jpg",
+      "retained": "logistics_v10/train/images/-1EE5CA55-C89F-4985-8D4E-A56DBD1A1E96-png_jpg.rf.7fb82d731f5f01dd03b500c28e4d4447.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/-25B75F91-9590-4B9D-A441-755612305E00-png_jpg.rf.38a636c608d577c630b715646d4e0253.jpg",
+      "retained": "logistics_v10/train/images/-25B75F91-9590-4B9D-A441-755612305E00-png_jpg.rf.8051e12257fec6c2d4c351aa98e7715a.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/-4E26A992-CA6F-43A4-B40F-D9881EC94176-png_jpg.rf.5e9577fc482d0f6506d7b2f37df0f1f2.jpg",
+      "retained": "logistics_v10/train/images/-4E26A992-CA6F-43A4-B40F-D9881EC94176-png_jpg.rf.9346b3dc7901725091cfc520151c1511.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/-64FEA10C-1F32-4982-91EE-6FCD11A89A15-png_jpg.rf.30544375473364676d00b17b153eb28a.jpg",
+      "retained": "logistics_v10/train/images/-64FEA10C-1F32-4982-91EE-6FCD11A89A15-png_jpg.rf.13c40991727d6af564ff8cbf85a4e357.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/-D57DACCE-A706-46AD-803E-1030E12D32C9-png_jpg.rf.040606b066079a5458901f2934c02811.jpg",
+      "retained": "logistics_v10/train/images/-D57DACCE-A706-46AD-803E-1030E12D32C9-png_jpg.rf.e3d020c7ab685d476ce7af6274ca4594.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/01_jpg.rf.1bff26cb51663c84fdef220b19abe16b.jpg",
+      "retained": "logistics_v10/train/images/01_jpg.rf.fb47e20fb65d6d26c407d96610e02ce5.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/02_l3-1-_jpg.rf.f331d5f637d2787dc8e7c137340e0bd1.jpg",
+      "retained": "logistics_v10/train/images/02_l3-1-_jpg.rf.36601c139b61d3bfb6143c3c9ec44a16.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/1992-Mitsubishi-FUSO-Fighter-private_jpg.rf.2da92a6dedf0e47992b57ddc826dc80a.jpg",
+      "retained": "logistics_v10/train/images/1992-Mitsubishi-FUSO-Fighter-private_jpg.rf.087337ca89255be46a655420aaffcad4.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/1992-Mitsubishi-FUSO-Fighter-private_jpg.rf.dc2b097df8d97d06afed99344727329a.jpg",
+      "retained": "logistics_v10/train/images/1992-Mitsubishi-FUSO-Fighter-private_jpg.rf.24552ed6adbe5568cbebfea3398f0db7.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/20170820170831fuso-1-1024x674_jpg.rf.718c44bb6d74af93b335d0a19ae1d34f.jpg",
+      "retained": "logistics_v10/train/images/20170820170831fuso-1-1024x674_jpg.rf.0e512ae504fe2b6163229b70b884f2a9.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/2_57_jpg.rf.ccca1ed15d0a6641e7fd3a0de7dc63a4.jpg",
+      "retained": "logistics_v10/train/images/2_57_jpg.rf.09bd76e001fa0e4a6c4d32521383a216.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/4_16121715346017c90e667e3_jpeg_jpg.rf.2897695d18a2d62a194a77493658aed8.jpg",
+      "retained": "logistics_v10/train/images/4_16121715346017c90e667e3_jpeg_jpg.rf.2f3bc2fefb0b3915f2043c0c753985ab.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/5-Fighter_jpg.rf.e261cc11643201b192349263878e00bf.jpg",
+      "retained": "logistics_v10/train/images/5-Fighter_jpg.rf.ecc3a3420953898a2b67bd0d7487f6af.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/847666-2012-mitsubishi-fuso-super-gr_jpg.rf.24ad8cf9d0afa5412c9a16f59161c49c.jpg",
+      "retained": "logistics_v10/train/images/847666-2012-mitsubishi-fuso-super-gr_jpg.rf.40551dfc0e5ee38c94bfc8b13619f049.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/847666-2012-mitsubishi-fuso-super-gr_jpg.rf.719791dc9cb4ac41779d196743f6fa70.jpg",
+      "retained": "logistics_v10/train/images/847666-2012-mitsubishi-fuso-super-gr_jpg.rf.64b864c01181b47547f1bbf5a7602d81.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/A-70-_png_jpg.rf.e9f2846d5d1b58b6c2d2e8d52d92bd59.jpg",
+      "retained": "logistics_v10/train/images/A-70-_png_jpg.rf.498b03480049f3ef2055d0933a6d50fd.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/E-81-_png_jpg.rf.b5b54699d89ddb3ab2e336e1991c15e3.jpg",
+      "retained": "logistics_v10/train/images/E-81-_png_jpg.rf.4c8977382f62e4f25e5c543cc9be7c71.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/I-22-_png_jpg.rf.49a84f0720759e76bb3fcea4362efdfd.jpg",
+      "retained": "logistics_v10/train/images/I-22-_png_jpg.rf.142b4815ba420e52b3cb606bbd3983de.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/I-35-_png_jpg.rf.0fdf44c7887bce6be6a50213345725c4.jpg",
+      "retained": "logistics_v10/train/images/I-35-_png_jpg.rf.2c3d7ae1763bf326349290c4aca0a43b.jpg"
+    },
+    {
+      "removed": "logistics_v10/test/images/Image_013289_jpg.rf.c37444e4263a747990ad21bdf4e56a34.jpg",
+      "retained": "logistics_v10/train/images/Image_013289_jpg.rf.b74b6ad92044767cfebe078e7837e69a.jpg"
+    }
+  ],
+  "conflicts": [],
+  "before": {
+    "logistics_v10": {
+      "test": 9984,
+      "train": 69616,
+      "valid": 19894
+    },
+    "cardboard_v5": {
+      "test": 274,
+      "train": 8403,
+      "valid": 539
+    }
+  },
+  "limitations": [
+    "Exact SHA256 cannot detect visually similar images.",
+    "Image-level grouping is not video/source-level grouping.",
+    "Same-split duplicates are retained.",
+    "Negative examples are not downsampled.",
+    "Source licenses require independent verification.",
+    "Annotation and source-domain quality need visual audit."
+  ],
+  "after": {
+    "logistics_v10": {
+      "images": {
+        "test": 9936,
+        "train": 69616,
+        "valid": 19831
+      },
+      "positive_images": {
+        "test": 449,
+        "train": 3128,
+        "valid": 867
+      },
+      "negative_images": {
+        "test": 9487,
+        "train": 66488,
+        "valid": 18964
+      }
+    },
+    "cardboard_v5": {
+      "images": {
+        "test": 274,
+        "train": 8403,
+        "valid": 539
+      },
+      "positive_images": {
+        "test": 274,
+        "train": 8403,
+        "valid": 539
+      },
+      "negative_images": {}
+    }
+  },
+  "status": "PASS_EXACT_CROSS_SPLIT_DEDUP"
+}

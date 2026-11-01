@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FILENAME_REWRITE_PENDING_CRC",
+  "source": "BoxCount_Day28_Kaggle_CLEAN.zip",
+  "total_image_label_pairs": 108599,
+  "images_per_split": {
+    "cardboard_v5/test": 274,
+    "cardboard_v5/train": 8403,
+    "cardboard_v5/valid": 539,
+    "logistics_v10/test": 9936,
+    "logistics_v10/train": 69616,
+    "logistics_v10/valid": 19831
+  },
+  "filename_policy": "img_000001.ext",
+  "original_filenames_preserved_in": "filename_mapping.csv",
+  "original_archive_unchanged": true,
+  "original_split_assignments_unchanged": true,
+  "annotations_unchanged": true
+}

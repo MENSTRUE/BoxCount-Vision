@@ -1,0 +1,2 @@
+experiment,weights,validation_map50,validation_map50_95,validation_precision,validation_recall
+A,/kaggle/working/boxcount_day28/runs/exp_A_cardboard/weights/best.pt,0.9089101097357861,0.7611465930875844,0.9212648368335494,0.84793932480349

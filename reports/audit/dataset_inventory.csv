@@ -1,0 +1,7 @@
+dataset,split,images,positive,boxes,negative
+cardboard_v5,test,274,274,2644,0
+cardboard_v5,train,8403,8403,143331,0
+cardboard_v5,valid,539,539,9274,0
+logistics_v10,test,9936,449,5060,9487
+logistics_v10,train,69616,3128,34529,66488
+logistics_v10,valid,19831,867,9946,18964

@@ -1,0 +1,65 @@
+{
+  "project": "BoxCount Vision / Day 28",
+  "generated_at_utc": "2026-10-31T15:57:58.848456+00:00",
+  "task": "single class box detection and count regression-by-detection",
+  "dataset_root": "/kaggle/input/datasets/wafabila/boxcount-vision-dataset",
+  "seed": 42,
+  "split_policy": "preserve source chronological-or-original train/valid/test splits (original split provenance must be reviewed)",
+  "selection_metric": "validation mAP@50:95 only",
+  "selection": [
+    {
+      "experiment": "A",
+      "weights": "/kaggle/working/boxcount_day28/runs/exp_A_cardboard/weights/best.pt",
+      "validation_map50": 0.9089101097357861,
+      "validation_map50_95": 0.7611465930875844,
+      "validation_precision": 0.9212648368335494,
+      "validation_recall": 0.84793932480349
+    }
+  ],
+  "champion": "A",
+  "heldout_detection": [
+    {
+      "experiment": "A",
+      "dataset": "cardboard_v5",
+      "test_images": 274,
+      "map50": 0.9067294972157484,
+      "map50_95": 0.7303725503005182,
+      "precision": 0.8804958154915894,
+      "recall": 0.846444780635401
+    },
+    {
+      "experiment": "A",
+      "dataset": "logistics_v10",
+      "test_images": 9936,
+      "map50": 0.6776986799440969,
+      "map50_95": 0.5909120569033297,
+      "precision": 0.7927895990482069,
+      "recall": 0.6140316205533597
+    }
+  ],
+  "heldout_counting": [
+    {
+      "dataset": "cardboard_v5",
+      "n_images": 274.0,
+      "count_MAE": 2.124087591240876,
+      "count_RMSE": 5.782556199846185,
+      "exact_count_accuracy": 0.43795620437956206
+    },
+    {
+      "dataset": "logistics_v10",
+      "n_images": 9936.0,
+      "count_MAE": 2.410024154589372,
+      "count_RMSE": 5.9816883747989165,
+      "exact_count_accuracy": 0.14683977455716588
+    }
+  ],
+  "limitations": [
+    "Kaggle source semantics and license require independent verification",
+    "Original splits may not be independent at sequence/source level",
+    "Exact hash audit is not near-duplicate proof",
+    "Logistics negatives may have omitted box annotations",
+    "Counting metrics are threshold-specific",
+    "No deployment, operational safety or generalization guarantee"
+  ],
+  "deployment_ready": false
+}
